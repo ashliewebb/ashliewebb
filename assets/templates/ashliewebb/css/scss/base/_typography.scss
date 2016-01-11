@@ -1,32 +1,55 @@
-/* TYPOGRAPHY */
+/*doc
+---
+title: Typography
+name: typography
+category: base
+---
 
-/* Base elements styling for global typography */
+```html_example
+
+<h1>Heading one, Griffos, 52px</h1>
+<h2>Heading two, Courier New, 17px</h2>
+
+<p>Paragraph, Karla, 16px.</p>
+<p>If you will not be turned, you will be destroyed. Young fool...only now, at the end, do you understand. Your feeble skills are no match for the power of the dark side. You have paid the price for your lack of vision. Father, please. Help me. Now, young Skywalker...you will die.</p>
+```
+*/
+
+$karla: 'Karla', sans-serif;
+$courier: 'CourierPrime', 'Courier New', Times, serif;
+$courier-new: 'Courier New', Courier, Times, serif;
+$griffos: 'GriffosFont';
+
+$font-primary-body: $karla;
+$font-primary-nav: $courier;
 
 
 h1 {
-
+    color: $bubblegum;
+    font-family: $griffos;
+    font-size: rem(52px);
+    line-height: 1;
+    margin: 0;
+    text-transform: lowercase;
 }
 
 h2 {
-
+    clear: both;
+    display: inline-block;
+    font-family: $courier-new;
+    font-size: rem(17px);
+    letter-spacing: 2px;
+    margin: rem($base-spacing-unit) 0;
+    text-transform: uppercase;
 }
 
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+p,
+%body-type-primary {
+    font-family: $font-primary-body;
+    font-weight: 400;
+    line-height: 1.65;
 }
 
 p {
-
+    margin-top: 0;
 }

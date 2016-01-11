@@ -1,2 +1,4 @@
-/* FONTS */
-/* @font-face declaration */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400italic,700');
+
+@include font-face('GriffosFont', '../fonts/GriffosFont');
+@include font-face('CourierPrime', '../fonts/CourierPrime');
