@@ -26,4 +26,9 @@ gulp.task('watch', function () {
     gulp.watch('./css/scss/**/*.scss', ['sass']);
 });
 
+gulp.task('hologram', function() {
+    gulp.src('styleguide/config.yml')
+        .pipe($.hologram());
+});
+
 gulp.task('default', ['sass', 'watch']);
