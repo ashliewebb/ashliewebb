@@ -1,0 +1,2 @@
+[2016-01-11 11:09:22] (ERROR @ /ashliewebb/manager/index.php) [configcheck] check core lockdown curl err: 28
+[2016-01-11 11:09:26] (ERROR @ /ashliewebb/connectors/modx.config.js.php) Error caching lexicon topic lexicon/en/core/resource

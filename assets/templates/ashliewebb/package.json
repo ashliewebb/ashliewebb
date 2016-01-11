@@ -1,0 +1,35 @@
+{
+  "name": "ashliewebb",
+  "version": "1.0.0",
+  "description": "Personal website, portfolio and blog for a frontend developer",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awebb-sessiondigital/ashliewebb.git"
+  },
+  "keywords": [
+    "web",
+    "developer",
+    "frontend",
+    "ux",
+    "ui",
+    "html5",
+    "css"
+  ],
+  "author": "Ashlie Webb <greetings@ashliewebb.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awebb-sessiondigital/ashliewebb/issues"
+  },
+  "homepage": "https://github.com/awebb-sessiondigital/ashliewebb#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
