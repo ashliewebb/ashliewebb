@@ -1,2 +1,37 @@
 [2016-01-11 11:09:22] (ERROR @ /ashliewebb/manager/index.php) [configcheck] check core lockdown curl err: 28
 [2016-01-11 11:09:26] (ERROR @ /ashliewebb/connectors/modx.config.js.php) Error caching lexicon topic lexicon/en/core/resource
+[2016-01-11 14:31:38] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:31:38] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:31:38] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:33:58] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:33:58] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:33:58] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:34:39] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:34:39] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:34:39] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:38:45] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:38:45] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:38:45] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:39:37] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:39:37] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:39:37] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:43:04] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:43:04] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:43:04] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:43:43] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 2
+[2016-01-11 14:43:43] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:43:43] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 1; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:53:47] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 2; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:53:47] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 2; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:53:47] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 2; skipping duplicate resource URI for resource id = 3
+[2016-01-11 14:53:47] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 2; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:53:57] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 3; skipping duplicate resource URI for resource id = 4
+[2016-01-11 14:53:57] (ERROR @ /ashliewebb/connectors/index.php) Resource URI  already exists for resource id = 3; skipping duplicate resource URI for resource id = 4
+[2016-01-11 15:15:50] (ERROR @ /ashliewebb/connectors/index.php) Error caching lexicon topic lexicon/en/core/default
+[2016-01-11 15:16:38] (ERROR @ /Users/awebb/Sites/ashliewebb/core/cache/includes/elements/modplugin/2.include.cache.php : 21) PHP warning: require_once(/Users/awebb/Sites/ashliewebb/core/components/tinymce/tinymce.class.php): failed to open stream: No such file or directory
+[2016-01-11 15:17:01] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory
+[2016-01-11 15:19:09] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory
+[2016-01-11 15:30:52] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory
+[2016-01-11 15:44:56] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory
+[2016-01-11 16:07:59] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory
+[2016-01-11 16:08:17] (ERROR @ /Users/awebb/Sites/ashliewebb/core/components/markdowneditor/model/markdowneditor/Event/OnDocFormSave.php : 38) PHP warning: mkdir(): No such file or directory

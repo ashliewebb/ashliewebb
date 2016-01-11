@@ -1,2 +1,5 @@
 .idea/
 setup/
+core/cache/
+core/components/
+core/packages/**/
