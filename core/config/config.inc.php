@@ -7,20 +7,20 @@ $database_server = 'localhost';
 $database_user = 'root';
 $database_password = 'root';
 $database_connection_charset = 'utf8';
-$dbase = 'ashliewebb';
+$dbase = 'ashwebb';
 $table_prefix = 'modx_';
-$database_dsn = 'mysql:host=localhost;dbname=ashliewebb;charset=utf8';
+$database_dsn = 'mysql:host=localhost;dbname=ashwebb;charset=utf8';
 $config_options = array (
 );
 $driver_options = array (
 );
 
-$lastInstallTime = 1455659544;
+$lastInstallTime = 1455903976;
 
-$site_id = 'modx56c39a189c4b61.84744221';
-$site_sessionname = 'SN56c3989d15538';
+$site_id = 'modx56c754e83a5683.87259536';
+$site_sessionname = 'SN56c754b4e62b7';
 $https_port = '443';
-$uuid = '3fa46b80-94c1-4875-a585-dadf1e0f98c7';
+$uuid = 'c0b5a018-0336-4844-8a93-119c14cb54e2';
 
 if (!defined('MODX_CORE_PATH')) {
     $modx_core_path= '/Users/ashliewebb/Sites/ashliewebb/core/';
@@ -59,10 +59,10 @@ if (!defined('MODX_URL_SCHEME')) {
 }
 if (!defined('MODX_HTTP_HOST')) {
     if(defined('PHP_SAPI') && (PHP_SAPI == "cli" || PHP_SAPI == "embed")) {
-        $http_host='localhost:8888';
+        $http_host='localhost';
         define('MODX_HTTP_HOST', $http_host);
     } else {
-        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'localhost:8888';
+        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'localhost';
         if ($_SERVER['SERVER_PORT'] != 80) {
             $http_host= str_replace(':' . $_SERVER['SERVER_PORT'], '', $http_host); // remove port from HTTP_HOST
         }

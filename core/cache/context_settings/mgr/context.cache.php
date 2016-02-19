@@ -14,7 +14,7 @@
   array (
     'OnBeforeDocFormSave' => 
     array (
-      3 => '3',
+      4 => '4',
     ),
     'OnChunkFormPrerender' => 
     array (
@@ -22,12 +22,12 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      3 => '3',
+      4 => '4',
       1 => '1',
     ),
     'OnDocFormSave' => 
     array (
-      3 => '3',
+      4 => '4',
     ),
     'OnFileEditFormPrerender' => 
     array (
@@ -39,11 +39,11 @@
     ),
     'OnRichTextEditorInit' => 
     array (
-      3 => '3',
+      4 => '4',
     ),
     'OnRichTextEditorRegister' => 
     array (
-      3 => '3',
+      4 => '4',
       1 => '1',
     ),
     'OnSnipFormPrerender' => 
@@ -56,7 +56,7 @@
     ),
     'OnWebPageInit' => 
     array (
-      3 => '3',
+      4 => '4',
     ),
   ),
   'pluginCache' => 
@@ -193,15 +193,15 @@ return;',
       'static' => '0',
       'static_file' => '',
     ),
-    3 => 
+    4 => 
     array (
-      'id' => '3',
+      'id' => '4',
       'source' => '0',
       'property_preprocess' => '0',
       'name' => 'MarkdownEditor',
       'description' => '',
       'editor_type' => '0',
-      'category' => '1',
+      'category' => '3',
       'cache_type' => '0',
       'plugincode' => '/**
  * MarkdownEditor

@@ -1,4 +1,32 @@
-Header set Access-Control-Allow-Origin "*"
+<IfModule mod_headers.c>
+
+    <FilesMatch "\.(ttf|eot|woff|otf|svg)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+
+    <FilesMatch ".(js|css|svg|xml|gz|html)$">
+        Header append Vary: Accept-Encoding
+    </FilesMatch>
+
+    # 1 month
+    <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+
+    # 2 DAYS
+    <FilesMatch "\.(xml|txt)$">
+        Header set Cache-Control "max-age=172800, public, must-revalidate"
+    </FilesMatch>
+
+    # 2 HOURS
+    <FilesMatch "\.(html)$">
+        Header set Cache-Control "max-age=7200, must-revalidate"
+    </FilesMatch>
+
+</IfModule>
+
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI "\.(?:gif|jpg|png)$" no-gzip
 
 # MODX supports Friendly URLs via this .htaccess file. You must serve web
 # pages via Apache with mod_rewrite to use this functionality, and you must
@@ -94,3 +122,7 @@ RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 #BrowserMatch "Mozilla/4.[0-9]{2}" brokenvary=1
 #BrowserMatch "Opera" !brokenvary
 #SetEnvIf brokenvary 1 force-no-vary
+
+
+# Rewrite styleguide URI
+#Rewrite ^styleguide/?$ assets/templates/ashliewebb/styleguide/docs/?1 [QSA,NC,L]

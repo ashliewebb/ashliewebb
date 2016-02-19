@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,400italic,700");
+html { box-sizing: border-box; }
+
+*, *::after, *::before { box-sizing: inherit; }
+
+/*
+$color-primary-lightest: #eff895;
+$color-primary-light: #c4ce58;
+$color-primary-dark: #7f8914;
+$color-primary-darker: #565e00;
+
+$color-complimentary-base: #622474;
+$color-complimentary-lightest: #9866a7;
+$color-complimentary-light: #7a3e8b;
+$color-complimentary-dark: #4b105c;
+$color-complimentary-darker: #32023f;
+*/
+@font-face { font-family: "GriffosFont"; font-style: normal; font-weight: normal; src: url("../fonts/GriffosFont.eot?#iefix") format("embedded-opentype"), url("../fonts/GriffosFont.woff2") format("woff2"), url("../fonts/GriffosFont.woff") format("woff"), url("../fonts/GriffosFont.ttf") format("truetype"), url("../fonts/GriffosFont.svg#GriffosFont") format("svg"); }
+@font-face { font-family: "CourierPrime"; font-style: normal; font-weight: normal; src: url("../fonts/CourierPrime.eot?#iefix") format("embedded-opentype"), url("../fonts/CourierPrime.woff2") format("woff2"), url("../fonts/CourierPrime.woff") format("woff"), url("../fonts/CourierPrime.ttf") format("truetype"), url("../fonts/CourierPrime.svg#CourierPrime") format("svg"); }
+/*doc
+---
+title: Palette
+name: palette
+category: base
+---
+
+<h2>Base colours</h2>
+<div class="group">
+<div class="swatch swatch--pbase swatch-colour--light">Primary base<br />#231f20</div>
+<div class="swatch swatch--pbg">Primary background<br />#f5f5f3</div>
+<div class="swatch swatch--pneutral swatch-colour--light">Primary neutral<br />#474646</div>
+</div>
+
+<h2>Highlight colours</h2>
+<div class="group">
+<div class="swatch swatch--phighlight swatch-colour--light">Primary highlight<br />#942571</div>
+<div class="swatch swatch--shighlight">Secondary highlight<br />#e6e048</div>
+<div class="swatch swatch--shighlight2">Secondary highlight 2<br />#00c3a9</div>
+<div class="swatch swatch--shighlight3 swatch-colour--light">Secondary highlight 3<br />#008798</div>
+</div>
+
+<h2>Lowlight colours</h2>
+<div class="group">
+<div class="swatch swatch--slowlight">Secondary lowlight<br />#b2edd0</div>
+</div>
+
+*/
+/*doc
+---
+title: Typography
+name: typography
+category: base
+---
+
+```html_example
+
+<h1>Heading one, Griffos, 52px</h1>
+<h2>Heading two, Courier New, 17px</h2>
+
+<p>Paragraph, Karla, 16px.</p>
+<p>If you will not be turned, you will be destroyed. Young fool...only now, at the end, do you understand. Your feeble skills are no match for the power of the dark side. You have paid the price for your lack of vision. Father, please. Help me. Now, young Skywalker...you will die.</p>
+```
+*/
+h1 { color: #00c3a9; font-family: "GriffosFont"; font-size: 3.25rem; line-height: 1; margin: 0; text-transform: lowercase; }
+
+h2 { clear: both; display: inline-block; font-family: "Courier New", Courier, Times, serif; font-size: 1.0625rem; letter-spacing: 2px; margin: 2rem 0; text-transform: uppercase; }
+
+p, .swatch { font-family: "Karla", sans-serif; font-weight: 400; line-height: 1.65; }
+
+p { margin-top: 0; }
+
+h1[id="typography"] { margin-bottom: 40px; }
+h1[id="typography"]:before { background: #b2edd0; content: ''; display: block; float: left; height: 50px; position: relative; margin-left: -18px; top: 6px; width: 6px; }
+
+pre { background: #fff; border-radius: 5px; border: 1px solid lightgrey; font-size: 1rem; padding: 10px; white-space: pre-wrap; }
+
+.swatch { border: 1px solid lightgrey; height: 136px; width: 136px; display: inline-block; float: left; margin: 0 20px 20px 0; padding: 10px; }
+.swatch--pbase { background: #231f20; }
+.swatch--pbg { background: #f5f5f3; }
+.swatch--pneutral { background: #474646; }
+.swatch--phighlight { background: #942571; }
+.swatch--shighlight { background: #e6e048; }
+.swatch--shighlight2 { background: #00c3a9; }
+.swatch--shighlight3 { background: #008798; }
+.swatch--slowlight { background: #b2edd0; }
+
+.swatch-colour--light { color: #f5f5f3; }
+
+.group { display: inline-block; margin-bottom: 20px; width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

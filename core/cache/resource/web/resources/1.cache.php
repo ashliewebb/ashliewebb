@@ -121,7 +121,7 @@
   array (
     '[[*pagetitle]]' => 'Home',
     '[[*description]]' => '',
-    '[[$tpl]]' => 'http://localhost/ashliewebb/assets/templates/ashliewebb/',
+    '[[$tpl]]' => 'http://localhost/ashliewebb//assets/templates/ashliewebb/',
     '[[*alias]]' => 'home',
     '[[*sidebar]]' => '',
     '[[~5]]' => 'portfolio.html',
@@ -143,14 +143,14 @@
           'editor_type' => 0,
           'category' => 0,
           'cache_type' => 0,
-          'snippet' => '[[++site_url]]assets/templates/ashliewebb/',
+          'snippet' => '[[++site_url]]/assets/templates/ashliewebb/',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '[[++site_url]]assets/templates/ashliewebb/',
+          'content' => '[[++site_url]]/assets/templates/ashliewebb/',
         ),
         'policies' => 
         array (
