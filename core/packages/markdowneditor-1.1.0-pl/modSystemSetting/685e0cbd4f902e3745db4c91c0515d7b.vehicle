@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a45e96c74900ac87944489ae5a7c3b82',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '685e0cbd4f902e3745db4c91c0515d7b',
+  'native_key' => 'markdowneditor.resizer.aspect_ratio_constraint',
+  'object' => '{"key":"markdowneditor.resizer.aspect_ratio_constraint","value":true,"xtype":"combo-boolean","namespace":"markdowneditor","area":"markdowneditor.area.resizer","editedon":null}',
+);

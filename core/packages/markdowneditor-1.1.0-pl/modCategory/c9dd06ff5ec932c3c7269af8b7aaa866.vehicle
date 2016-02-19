@@ -1,0 +1,208 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '948496f8aa446b7f227573297e8f9468' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '7d26e49227e75d80830d3bacdec1da1a' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnRichTextEditorRegister","priority":0,"propertyset":0}',
+              'guid' => '7fd211b9000a2685fa484f47cf94b509',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnRichTextEditorRegister',
+              ),
+              'signature' => '94fdf3440dfb4e1bd1bb9a848c7f46c2',
+            ),
+            'c8b4822835d2773afbdbcc5a23f90266' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnRichTextEditorInit","priority":0,"propertyset":0}',
+              'guid' => '9541121c93baba04d04a0e7c32f3775c',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnRichTextEditorInit',
+              ),
+              'signature' => 'aa43c9949c37dc5b81d63d3672a1cb45',
+            ),
+            '4f39714b03d0b4f306b798a07c43faae' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+              'guid' => 'bfd4e6ecb1b1adc912f0bdfa321068b5',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormPrerender',
+              ),
+              'signature' => '8dbd3a163ca186332b4ea8d6bd845d1c',
+            ),
+            'f8a26be3b258eb5f688852c6ac02917f' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnBeforeDocFormSave","priority":0,"propertyset":0}',
+              'guid' => '3fdf7e644e3b08608e0b0948dc80b427',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnBeforeDocFormSave',
+              ),
+              'signature' => 'e25da3b52bc564de6dd155b8ed1f1e77',
+            ),
+            '0acc523ca0e46bd4bc46a675dde34a96' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":0,"propertyset":0}',
+              'guid' => '1596da8b2561762be0dc28f544b1f2de',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormSave',
+              ),
+              'signature' => '6856332f00a5a0efb58dac6d27700039',
+            ),
+            '59c710ed9a9618ad633cc85152cc56e7' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnWebPageInit","priority":0,"propertyset":0}',
+              'guid' => 'dd6b07e6b79b99def731dd5ba3c6a3b5',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnWebPageInit',
+              ),
+              'signature' => 'ecf70e87d17a9dd9003ce69336c810ff',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"MarkdownEditor","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * MarkdownEditor\\n *\\n * DESCRIPTION\\n *\\n *\\n *\\/\\n$corePath = $modx->getOption(\'markdowneditor.core_path\', null, $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/markdowneditor\\/\');\\n\\/** @var MarkdownEditor $markdowneditor *\\/\\n$markdowneditor = $modx->getService(\\n    \'markdowneditor\',\\n    \'MarkdownEditor\',\\n    $corePath . \'model\\/markdowneditor\\/\',\\n    array(\\n        \'core_path\' => $corePath\\n    )\\n);\\n\\n$className = \'MarkdownEditor\\\\\\\\Event\\\\\\\\\' . $modx->event->name;\\n\\nif (class_exists($className)) {\\n    \\/** @var MarkdownEditor\\\\Event\\\\Event $handler *\\/\\n    $handler = new $className($modx, $scriptProperties);\\n    $handler->run();\\n}\\n\\nreturn;","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * MarkdownEditor\\n *\\n * DESCRIPTION\\n *\\n *\\n *\\/\\n$corePath = $modx->getOption(\'markdowneditor.core_path\', null, $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/markdowneditor\\/\');\\n\\/** @var MarkdownEditor $markdowneditor *\\/\\n$markdowneditor = $modx->getService(\\n    \'markdowneditor\',\\n    \'MarkdownEditor\',\\n    $corePath . \'model\\/markdowneditor\\/\',\\n    array(\\n        \'core_path\' => $corePath\\n    )\\n);\\n\\n$className = \'MarkdownEditor\\\\\\\\Event\\\\\\\\\' . $modx->event->name;\\n\\nif (class_exists($className)) {\\n    \\/** @var MarkdownEditor\\\\Event\\\\Event $handler *\\/\\n    $handler = new $className($modx, $scriptProperties);\\n    $handler->run();\\n}\\n\\nreturn;"}',
+        'guid' => '0cd90381962becb4bae7028ad6e502f8',
+        'native_key' => NULL,
+        'signature' => '754b7b607aae11451c12939acf46a314',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'markdowneditor',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"markdowneditor-1.1.0-pl\\/modCategory\\/c9dd06ff5ec932c3c7269af8b7aaa866\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"markdowneditor"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"markdowneditor-1.1.0-pl\\/modCategory\\/c9dd06ff5ec932c3c7269af8b7aaa866\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"markdowneditor"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"markdowneditor-1.1.0-pl\\/modCategory\\/c9dd06ff5ec932c3c7269af8b7aaa866.gpm.resolve.tables.resolver","type":"php","name":"gpm.resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"markdowneditor-1.1.0-pl\\/modCategory\\/c9dd06ff5ec932c3c7269af8b7aaa866.resolve.update.resolver","type":"php","name":"resolve.update"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"markdowneditor-1.1.0-pl\\/modCategory\\/c9dd06ff5ec932c3c7269af8b7aaa866.resolve.whicheditor.resolver","type":"php","name":"resolve.whicheditor"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a37a52ead1fee570b2f7a7afa401c3c7',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'c9dd06ff5ec932c3c7269af8b7aaa866',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"MarkdownEditor"}',
+);

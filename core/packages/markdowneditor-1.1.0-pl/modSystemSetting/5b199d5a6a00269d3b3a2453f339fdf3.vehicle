@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '527bb122717def95f8970037ae91d05d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5b199d5a6a00269d3b3a2453f339fdf3',
+  'native_key' => 'markdowneditor.upload.max_size',
+  'object' => '{"key":"markdowneditor.upload.max_size","value":"","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.upload","editedon":null}',
+);

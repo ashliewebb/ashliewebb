@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3ded76673a97c0046dcceca296db5766',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5096ba4d691954d10f31df1c920453c4',
+  'native_key' => 'markdowneditor.cropper.show_description',
+  'object' => '{"key":"markdowneditor.cropper.show_description","value":false,"xtype":"combo-boolean","namespace":"markdowneditor","area":"markdowneditor.area.cropper","editedon":null}',
+);

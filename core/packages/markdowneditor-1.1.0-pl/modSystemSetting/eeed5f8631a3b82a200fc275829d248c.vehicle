@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4f792610a420e45f3625639429000561',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'eeed5f8631a3b82a200fc275829d248c',
+  'native_key' => 'markdowneditor.resizer.width',
+  'object' => '{"key":"markdowneditor.resizer.width","value":400,"xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.resizer","editedon":null}',
+);

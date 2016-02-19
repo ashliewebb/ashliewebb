@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '77539f56a333e7c39b640b1489833bfa',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '832f7ff5f62e014d53219fbc7c8d55b0',
+  'native_key' => 'markdowneditor.general.include_ghfmd_manager',
+  'object' => '{"key":"markdowneditor.general.include_ghfmd_manager","value":true,"xtype":"combo-boolean","namespace":"markdowneditor","area":"markdowneditor.area.general","editedon":null}',
+);

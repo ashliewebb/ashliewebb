@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c437697cdf018f4c8cb661d3b43d5ef5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c54eafbfaae3eebd85ca60d7a9b8e92b',
+  'native_key' => 'markdowneditor.general.font_family',
+  'object' => '{"key":"markdowneditor.general.font_family","value":"","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.general","editedon":null}',
+);

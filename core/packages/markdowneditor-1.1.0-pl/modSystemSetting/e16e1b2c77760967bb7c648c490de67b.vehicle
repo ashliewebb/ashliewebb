@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b38d6f1ba0c98f88440676f3938fbe47',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e16e1b2c77760967bb7c648c490de67b',
+  'native_key' => 'markdowneditor.oembed.service',
+  'object' => '{"key":"markdowneditor.oembed.service","value":"Essence,EmbedlyCards","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.oembed","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3bcf79af4dc19f068c2262b102264aaf',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '2c2ad812b945e455b880c09d5f4be3b6',
+  'native_key' => 'markdowneditor.general.source',
+  'object' => '{"key":"markdowneditor.general.source","value":1,"xtype":"modx-combo-source","namespace":"markdowneditor","area":"markdowneditor.area.general","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0cee1bb1b8ca37b991899c6469d9390e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a40e876199cfecb62b6f2c47b7be0700',
+  'native_key' => 'markdowneditor.general.split_fullscreen',
+  'object' => '{"key":"markdowneditor.general.split_fullscreen","value":true,"xtype":"combo-boolean","namespace":"markdowneditor","area":"markdowneditor.area.general","editedon":null}',
+);

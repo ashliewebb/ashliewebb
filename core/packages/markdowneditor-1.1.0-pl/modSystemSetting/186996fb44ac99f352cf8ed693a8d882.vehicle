@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1646a82e5844881beeba6352ede48db7',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '186996fb44ac99f352cf8ed693a8d882',
+  'native_key' => 'markdowneditor.embedly.api_key',
+  'object' => '{"key":"markdowneditor.embedly.api_key","value":"","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.embedly","editedon":null}',
+);

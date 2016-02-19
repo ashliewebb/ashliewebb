@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4eac4edcfa09511a8b1a7ab7f64955bc',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6c5792e0bf568dc0522aece1af3d4d88',
+  'native_key' => 'markdowneditor.upload.image_types',
+  'object' => '{"key":"markdowneditor.upload.image_types","value":"jpg,jpeg,png,gif,bmp","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.upload","editedon":null}',
+);

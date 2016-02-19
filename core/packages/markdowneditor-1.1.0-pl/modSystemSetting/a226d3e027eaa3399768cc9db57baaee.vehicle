@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '41bafa1bd1136e846ebf19651d95c5ea',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a226d3e027eaa3399768cc9db57baaee',
+  'native_key' => 'markdowneditor.upload.delete_unused',
+  'object' => '{"key":"markdowneditor.upload.delete_unused","value":true,"xtype":"combo-boolean","namespace":"markdowneditor","area":"markdowneditor.area.upload","editedon":null}',
+);

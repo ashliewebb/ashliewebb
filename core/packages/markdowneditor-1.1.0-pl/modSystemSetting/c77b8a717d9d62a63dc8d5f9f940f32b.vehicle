@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '456be14f3e294ef798f7120ed3010854',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c77b8a717d9d62a63dc8d5f9f940f32b',
+  'native_key' => 'markdowneditor.oembed.default_card_color',
+  'object' => '{"key":"markdowneditor.oembed.default_card_color","value":"#D71212","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.oembed","editedon":null}',
+);

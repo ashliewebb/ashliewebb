@@ -1,0 +1,42 @@
+{
+  "name": "ashliewebb",
+  "version": "1.0.0",
+  "description": "Personal website, portfolio and blog for a frontend developer",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashliewebb/ashliewebb.git"
+  },
+  "keywords": [
+    "web",
+    "developer",
+    "frontend",
+    "ux",
+    "ui",
+    "html5",
+    "css"
+  ],
+  "author": "Ashlie Webb <greetings@ashliewebb.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashliewebb/ashliewebb/issues"
+  },
+  "homepage": "https://github.com/ashliewebb/ashliewebb#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-hologram": "^1.2.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-svgmin": "^1.2.2",
+    "gulp-svgstore": "^5.0.5"
+  }
+}

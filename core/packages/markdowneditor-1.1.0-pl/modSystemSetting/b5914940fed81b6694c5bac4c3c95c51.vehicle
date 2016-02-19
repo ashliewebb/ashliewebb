@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6378388d5568074aca9ce5a8090e2954',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b5914940fed81b6694c5bac4c3c95c51',
+  'native_key' => 'markdowneditor.oembed.max_width',
+  'object' => '{"key":"markdowneditor.oembed.max_width","value":640,"xtype":"numberfield","namespace":"markdowneditor","area":"markdowneditor.area.oembed","editedon":null}',
+);

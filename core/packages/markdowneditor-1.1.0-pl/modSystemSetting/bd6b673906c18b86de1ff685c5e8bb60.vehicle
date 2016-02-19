@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'markdowneditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a54d73003ba0ed73954136369f0fb9d1',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'bd6b673906c18b86de1ff685c5e8bb60',
+  'native_key' => 'markdowneditor.general.theme',
+  'object' => '{"key":"markdowneditor.general.theme","value":"github","xtype":"textfield","namespace":"markdowneditor","area":"markdowneditor.area.general","editedon":null}',
+);
